@@ -1,0 +1,102 @@
+body {
+    /* background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12); */
+    font-family: 'Raleway', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-image: url('img/alexander-grey-eMP4sYPJ9x0-unsplash.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.editor {
+    display:flex;
+    flex-flow:column wrap;
+    text-align: center;
+}
+
+h1 {
+    /* margin-bottom: 60px; */
+    font-size: 36px;
+    font-weight:800;
+    /* color:#865862; */
+}
+
+
+table, td, th {
+    border: 1px solid white;
+}
+
+table {
+    background:lightgray;
+    border-collapse: collapse;
+    font-weight:400;
+}
+
+td, th {
+    padding: 10px;
+}
+
+.delete {
+    border: 1px solid white;
+    border-radius:5px;
+    background: darkgray;
+    color: white;
+    text-transform: uppercase;
+    margin: 10px 0;
+    padding:6px;
+}
+
+input {
+    padding: 2px;
+    margin-bottom:5px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+button {
+    align-self:center;
+    margin: 10px 0;
+    padding:6px;
+    border: 1px solid white;
+    background: darkgray;
+    color: white;
+    text-transform: uppercase;
+    border-radius:5px;
+}
+
+button:hover {
+    background:rgb(47, 55, 79);
+}
+
+.card {
+    background: lightgray;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    padding: 100px;
+}
+
+.button-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+.next-button {
+    padding: 5px 20px;
+    margin-bottom: 10px;
+}
+
+.go-to-editor {
+    padding: 5px 20px;
+    margin-bottom: 10px;
+}
